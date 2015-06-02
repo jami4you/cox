@@ -1,0 +1,62 @@
+//
+// Variables
+// --------------------------------------------------
+
+//== Colors
+//
+//## Colors for use across site.
+
+$text-color: #333;
+$text-color-inverse: #fff;
+$border-color: #adadad;
+$brand-color-1: #d3d3d3;
+$brand-color-2: #bdbdbd;
+$brand-color-3: #a8a8a8;
+$brand-color-4:	#939393;
+$brand-color-5: #7e7e7e;
+$brand-color-6: #696969;
+$brand-color-7: #545454;
+$brand-color-8:	#3f3f3f;
+$accent-color: #ededed;
+
+
+//== Scaffolding
+//
+//## Settings for some of the most global styles.
+
+
+//== Typography
+//
+//## Font, line-height, and color for body text, headings, and more.
+
+// Font weights
+$light: 100;
+$regular: 400;
+$bold: 600;
+
+// Base Font
+$base-font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+$base-font-weight: $regular;
+$base-font-size: 16px;
+$base-line-height: 1.6;
+
+// Headings
+$header-font-family: 'Cambria', Georgia, serif;
+$header-font-weight: $bold;
+
+
+//== Buttons
+//
+//## For each of Bootstrap's buttons, define text, background and border color.
+
+//Primary colors 
+$Pri-color-1: #ffffff;
+$Pri-color-2: #002b5c;
+$Pri-color-3: #8cd2f4;
+$Pri-color-4: #f8971d;
+
+//Secodary colors 
+$Sec-color-1: #00468f;
+$Sec-color-2: #d4df4d;
+$Sec-color-3: #b4b4b4;
+$Sec-color-4: #f7f7f7;

@@ -1,0 +1,118 @@
+/* ==========================================================================
+	Modules
+	========================================================================== */
+
+// Modules are the reusable, modular parts of our design.
+// They are the callouts, the sidebar sections, the product
+// lists and so on.
+// --------------------------------------------------
+
+// Search nav
+.search-nav {
+	background-color: $brand-color-4;
+	margin-bottom: 0;
+	visibility: hidden;
+	height: 0;
+	overflow: hidden;
+	@include transition(all 0.3s ease-in-out);
+}
+
+.search-nav.visible {
+	padding: 10px 0;
+	height: 54px;
+	visibility: visible;
+	@include transition(all 0.3s ease-in-out);
+}
+
+// END Search nav
+
+// Global nav
+.global-nav {
+	margin-bottom: 0;
+	.site-search {
+		border-left: 1px solid dimgray;
+	}
+	.nav > li > a:hover, .active {
+		background-color: $brand-color-1;
+	}
+	.nav > li > a:focus {
+		background-color: transparent;
+	}
+	.site-search.active a {
+		color: dimgray;
+	}
+}
+// END Global nav
+
+// Hero banner
+.hero-banner {
+	background: $accent-color;
+	padding: 30px 0 40px;
+	margin-bottom: 20px;
+}
+// END Hero banner
+
+// Color swatches
+.color-swatches-primary {
+	display: table;
+	border: 1px solid $border-color;
+	width: 100%;
+	font-size: 0;
+	div {
+		display: table-cell;
+		height: 100px;
+	}
+}
+
+.color-swatches-secondary {
+	display: table;
+	border: 1px solid $border-color;
+	width: 25%;
+	font-size: 0;
+	div {
+		display: table-cell;
+		height: 75px;
+	}
+}
+// END Color swatches
+
+// Design elements
+.design-elements {
+	img {
+		padding: 15px 0;
+	}
+}
+// END Design elements
+
+// Icon styles
+.icon-styles {
+	font-size: 40px;
+}
+// END Icon styles
+
+// Call-to-action
+.call-to-action {
+	background-color: $accent-color;
+	padding: 50px 0 36px;
+	h2 {
+		margin-top: 0;
+	}
+}
+// END Call-to-action
+
+// Feeds
+.feed-block h4 {
+	margin-top: 0;
+}
+.feed-item {
+	padding: 6px 0 0;
+}
+// END Feeds
+
+// Footer
+.footer.navbar {
+	padding: 20px 0;
+	margin-bottom: 0;
+	color: $text-color-inverse;
+}
+// END Footer

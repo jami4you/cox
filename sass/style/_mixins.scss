@@ -1,0 +1,10 @@
+//
+// Mixins
+// --------------------------------------------------
+
+@mixin transition($animate) {
+	-moz-transition: $animate;
+	-o-transition: $animate;
+	-webkit-transition: $animate;
+	transition: $animate;
+}
